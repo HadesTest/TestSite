@@ -1,37 +1,160 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <title>Hadeswerk</title>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+ <h1 style="text-align:center; color:grey ; font-family: 'Oxygen'; font-size:40px">Content Needed to be Added to Plex </h1>
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+ <style>.content {text-align:center; color:grey ; font-family: 'Oxygen'; font-size:25px;} </style>
+</head>
+<style>
 
-You can use the [editor on GitHub](https://github.com/HadesTest/TestSite/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    body {background-image: url('websiteblack.jpg');
+         
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    .image-row {
+        text-align: center;
+    }
+    .image-box{
+        width: 200px;
+        height: 600px;
+    
+    }
+    .image-box img {
+        height: 100%;
+        width: 75%;
+    }
+    .image-box {
+        width: 17%;
+        padding: 1%;
+        margin: .5%;
+        background: grey;
+        display: inline-block;
+        font-size: 0; /* fixes bottom padding */
+    }
+    
+    </style>
+<body>
 
-### Markdown
+<strong style="font-family:Oxygen;text-align:center; color:grey;font-size:30px">Anime</strong>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<ul style="font-family:Oxygen;color:grey;font-size:25px">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+  <li>KonoSuba</li>
+  <li>Demon Slayer</li>
+  <li>My Hero Academia</li>
+  <li>Naruto</li>
+</ul>
+</body>
 
-1. Numbered
-2. List
+<div class="image-row">
+    <div class="image-box">
+        <img src="Konosuba.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="DemonSlayer.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="MHA.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="Naruto.jpg" />
+    </div>
+</div>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HadesTest/TestSite/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<br>
+</br>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body> 
+<strong style="font-family:Oxygen;color:grey;font-size:30px"> Movies </strong>
+
+
+<ul style="font-family:Oxygen; color:grey;font-size:25px">
+
+
+  <li>Cinderella</li>
+  <li>The Princess and the Frog</li>
+  <li>Hercules</li>
+  <li>The Hunchback of Notre Dame</li>
+</ul>
+</body>
+
+
+
+<div class="image-row">
+    <div class="image-box">
+        <img src="Cinderella.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="PrincessFrog.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="Hercules.jpeg" />
+    </div>
+    <div class="image-box">
+        <img src="Hunchback.jpg" />
+    </div>
+</div>
+
+
+<br>
+</br>
+
+<body> 
+<strong style="font-family:Oxygen;color:grey;font-size:30px"> TV Shows </strong>
+
+
+<ul style="font-family:Oxygen;color:grey;font-size:25px">
+
+
+  <li>Codename: Kids Next Door</li>
+  <li>Bob's Burgers</li>
+  <li>Regular Show</li>
+  <li>Locke & Key</li>
+</ul>
+</body>
+
+<div class="image-row">
+    <div class="image-box">
+        <img src="KND.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="BobBurger.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="RegShow.jpg" />
+    </div>
+    <div class="image-box">
+        <img src="LockKey.jpg" />
+    </div>
+</div>
+
+<br>
+</br>
+
+
+ <h2 style="text-align:center; color:grey ; font-family: 'Oxygen'; font-size:30px"> Links </h2>
+
+<body>
+<div class=content><a href="https://github.com/HadesTest">GitHub</a>
+<br>
+<div class=content><a href="https://discordapp.com/">Discord</a>
+<br>
+<div class=content><a href="">Website</a>
+<br>
+<div class=content><a href="About.html">About Page</a>    
+</div>
+</body>
+
+
+<footer style="font-family:Oxygen;text-align:center;color: grey;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website was made by Hades </footer>
+
+</html>
